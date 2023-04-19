@@ -12,17 +12,20 @@
   justify-content: center;
   flex-direction: column;
   padding: 1em;
+  background-color: black;
 }
 
 h1 {
   margin-bottom: 1em;
+  color: orange;
 }
 
 .main {
   padding: 1em;
-  border: 1px solid black;
+  border: 1px solid whitesmoke;
   border-radius: 5px;
   width: 100%;
+  background: url(/images/background.jpg);
 }
 
 @media screen and (min-width: 601px) and (max-width: 960px) {
@@ -38,11 +41,12 @@ h1 {
 }
 
 .display {
-  border: 1px solid gray;
+  border: 1px solid black;
   margin-bottom: 1em;
   padding: 10px;
   display: flex;
   flex-direction: column;
+  background-color: gray;
 }
 
 .display input {
@@ -53,10 +57,12 @@ h1 {
 .small-display {
   font-size: 16px;
   margin-bottom: 5px;
+  background-color: gray;
 }
 
 .large-display {
   font-size: 40px;
+  background-color: gray;
 }
 
 .inputs {
@@ -69,9 +75,10 @@ h1 {
   font-size: 28px;
   padding: 20px;
   color: white;
-  background-color: gray;
+  background-color: black;
   border: 1px solid gray;
   border-radius: 5px;
+  opacity: 0.4;
 }
 
 .inputs button:hover {
